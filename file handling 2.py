@@ -1,0 +1,6 @@
+f=open("modesfile.txt",'r+')
+x=f.read()
+print(x)
+str=input()
+f.write(str)
+f.close()
